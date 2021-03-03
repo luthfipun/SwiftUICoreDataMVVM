@@ -13,6 +13,8 @@
 		A6C2CCCD25F03BD000A50DE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6C2CCCC25F03BD000A50DE7 /* Preview Assets.xcassets */; };
 		A6C2CCCF25F03BD000A50DE7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C2CCCE25F03BD000A50DE7 /* Persistence.swift */; };
 		A6C2CCD225F03BD000A50DE7 /* SwiftUICoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6C2CCD025F03BD000A50DE7 /* SwiftUICoreData.xcdatamodeld */; };
+		A6C2CCDC25F03D0500A50DE7 /* People+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C2CCDA25F03D0500A50DE7 /* People+CoreDataClass.swift */; };
+		A6C2CCDD25F03D0500A50DE7 /* People+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C2CCDB25F03D0500A50DE7 /* People+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A6C2CCCE25F03BD000A50DE7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		A6C2CCD125F03BD000A50DE7 /* SwiftUICoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUICoreData.xcdatamodel; sourceTree = "<group>"; };
 		A6C2CCD325F03BD000A50DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6C2CCDA25F03D0500A50DE7 /* People+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "People+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A6C2CCDB25F03D0500A50DE7 /* People+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "People+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		A6C2CCB925F03BCF00A50DE7 = {
 			isa = PBXGroup;
 			children = (
+				A6C2CCDA25F03D0500A50DE7 /* People+CoreDataClass.swift */,
+				A6C2CCDB25F03D0500A50DE7 /* People+CoreDataProperties.swift */,
 				A6C2CCC425F03BCF00A50DE7 /* SwiftUICoreData */,
 				A6C2CCC325F03BCF00A50DE7 /* Products */,
 			);
@@ -146,7 +152,9 @@
 			files = (
 				A6C2CCCF25F03BD000A50DE7 /* Persistence.swift in Sources */,
 				A6C2CCC825F03BCF00A50DE7 /* ContentView.swift in Sources */,
+				A6C2CCDC25F03D0500A50DE7 /* People+CoreDataClass.swift in Sources */,
 				A6C2CCD225F03BD000A50DE7 /* SwiftUICoreData.xcdatamodeld in Sources */,
+				A6C2CCDD25F03D0500A50DE7 /* People+CoreDataProperties.swift in Sources */,
 				A6C2CCC625F03BCF00A50DE7 /* SwiftUICoreDataApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
