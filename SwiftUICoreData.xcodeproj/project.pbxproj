@@ -15,6 +15,8 @@
 		A6C2CCD225F03BD000A50DE7 /* SwiftUICoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6C2CCD025F03BD000A50DE7 /* SwiftUICoreData.xcdatamodeld */; };
 		A6C2CCDC25F03D0500A50DE7 /* People+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C2CCDA25F03D0500A50DE7 /* People+CoreDataClass.swift */; };
 		A6C2CCDD25F03D0500A50DE7 /* People+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C2CCDB25F03D0500A50DE7 /* People+CoreDataProperties.swift */; };
+		A6C2CCE225F04E4000A50DE7 /* DialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C2CCE125F04E4000A50DE7 /* DialogView.swift */; };
+		A6CEAC2D25F0FC9F002CCF3E /* PoepleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CEAC2C25F0FC9F002CCF3E /* PoepleViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		A6C2CCD325F03BD000A50DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6C2CCDA25F03D0500A50DE7 /* People+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "People+CoreDataClass.swift"; sourceTree = "<group>"; };
 		A6C2CCDB25F03D0500A50DE7 /* People+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "People+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A6C2CCE125F04E4000A50DE7 /* DialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogView.swift; sourceTree = "<group>"; };
+		A6CEAC2C25F0FC9F002CCF3E /* PoepleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoepleViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +66,10 @@
 		A6C2CCC425F03BCF00A50DE7 /* SwiftUICoreData */ = {
 			isa = PBXGroup;
 			children = (
-				A6C2CCC525F03BCF00A50DE7 /* SwiftUICoreDataApp.swift */,
+				A6CEAC2B25F0FC8A002CCF3E /* ViewModel */,
 				A6C2CCC725F03BCF00A50DE7 /* ContentView.swift */,
+				A6C2CCDF25F04D3A00A50DE7 /* View */,
+				A6C2CCC525F03BCF00A50DE7 /* SwiftUICoreDataApp.swift */,
 				A6C2CCC925F03BD000A50DE7 /* Assets.xcassets */,
 				A6C2CCCE25F03BD000A50DE7 /* Persistence.swift */,
 				A6C2CCD325F03BD000A50DE7 /* Info.plist */,
@@ -79,6 +85,22 @@
 				A6C2CCCC25F03BD000A50DE7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A6C2CCDF25F04D3A00A50DE7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A6C2CCE125F04E4000A50DE7 /* DialogView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A6CEAC2B25F0FC8A002CCF3E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A6CEAC2C25F0FC9F002CCF3E /* PoepleViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,11 +173,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6C2CCCF25F03BD000A50DE7 /* Persistence.swift in Sources */,
+				A6CEAC2D25F0FC9F002CCF3E /* PoepleViewModel.swift in Sources */,
 				A6C2CCC825F03BCF00A50DE7 /* ContentView.swift in Sources */,
 				A6C2CCDC25F03D0500A50DE7 /* People+CoreDataClass.swift in Sources */,
 				A6C2CCD225F03BD000A50DE7 /* SwiftUICoreData.xcdatamodeld in Sources */,
 				A6C2CCDD25F03D0500A50DE7 /* People+CoreDataProperties.swift in Sources */,
 				A6C2CCC625F03BCF00A50DE7 /* SwiftUICoreDataApp.swift in Sources */,
+				A6C2CCE225F04E4000A50DE7 /* DialogView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
